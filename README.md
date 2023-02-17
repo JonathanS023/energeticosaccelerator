@@ -6,7 +6,7 @@ Projeto de calculadora de impostos para Energéticos Accelerator
 
   Neste projeto desenvolvi um algoritmo para calcular os impostos referentes a cada venda. Para calcular, primeiro deve-se por o número de processos a serem feitos no item Demanda. Em seguida adicionar o nome da empresa para o qual o calculo será aplicado. Depois a quantidade de produtos pedidos pela empresa. No processo ele imprime o relatório contendo os valores gerados pelos cálculos com base na quantidade de produtos pedidos por cada cliente. No relatório consta os impostos ICMS, IPI, PIS e COFINS. Além disso, consta o valor total por empresa e ao final o valor total dos impostos, valor total de mercadorias vendidas e valor total geral da empresa.
 
-# Como fundiona:
+# Como funciona:
 
   Para elaboração do algoritmo, primeiro separei as possíveis variáveis que necessitaria utilizar. Em seguida criei a classe CalculadoradeImpostos e criei cada variável do tipo Double para cada calculo de imposto que seria feito pelo algoritmo que ficasse fora do looping que apliquei. O looping que escolhi foi em formato While com o pré-suposto de que o a pessoa a realizar o procedimento possa utilizar o algoritmo sem saber a quantidade de processos a serem feitos com antecedência, dessa forma possa utilizar e aplicar quanto necessário. Como se trata de uma empresa de energéticos interpretei como sendo um caso possível e mesmo que ela receba a quantia de processos com antecedência é ela quem definirá o quanto fará por vez. Por essa razão, abri um Scannner para que a pessoa insira a quantidade de processos a serem feitos para então iniciar o algoritmo de cálculo.
 
